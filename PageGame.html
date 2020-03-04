@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="ScriptGame.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="StyleGame.css">
+    <title>Four In A Row</title>
+</head>
+
+<body onload="my_onload()">
+
+    <header>
+        <p>Let's play <b>Four In A Row</b></p>
+    </header>
+
+    <section>
+        <div id="leftSide">
+            <div id="player1">
+                <p>Red Player</p>
+                <div class="stepLine"></div>
+            </div>
+            <div id="player2">
+                <p>Yellow Player</p>
+                <div class="stepLine"></div>
+            </div>
+            <div id="newGameButton" onclick="new_game()">New Game</div>
+        </div>
+
+        <div id="rightSide">
+            <div id="board">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <a href="https://www.linkedin.com/in/haim-halfon-a5a590188/" target="_blank">Haim Halfon</a></p>
+    </footer>
+
+</body>
+
+</html>
